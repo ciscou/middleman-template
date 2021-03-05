@@ -45,6 +45,12 @@ activate :external_pipeline,
   source: "tmp",
   latency: 1
 
+activate :external_pipeline,
+  name: :babel,
+  command: "npx babel #{"--watch" unless build?} --out-dir tmp/javascripts/ source/javascripts/",
+  source: "tmp",
+  latency: 1
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
