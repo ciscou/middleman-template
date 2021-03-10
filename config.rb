@@ -47,7 +47,7 @@ activate :external_pipeline,
 
 activate :external_pipeline,
   name: :rollup,
-  command: "npx rollup #{"--watch" unless build?} --format iife --file tmp/javascripts/site.js source/javascripts/site.js",
+  command: "npx rollup #{"--watch" unless build?} --config",
   source: "tmp",
   latency: 1
 
