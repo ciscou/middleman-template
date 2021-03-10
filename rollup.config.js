@@ -9,8 +9,8 @@ export default {
     format: 'iife'
   },
   plugins: [
-    commonjs(),
     nodeResolve(),
+    commonjs(),
     babel({ babelHelpers: 'bundled' })
   ]
 };
