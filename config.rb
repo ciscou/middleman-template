@@ -46,8 +46,8 @@ activate :external_pipeline,
   latency: 1
 
 activate :external_pipeline,
-  name: :babel,
-  command: "npx babel #{"--watch" unless build?} --out-dir tmp/javascripts/ source/javascripts/",
+  name: :rollup,
+  command: "npx rollup #{"--watch" unless build?} --format iife --file tmp/javascripts/site.js source/javascripts/site.js",
   source: "tmp",
   latency: 1
 

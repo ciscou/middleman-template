@@ -1,4 +1,3 @@
-// This is where it all goes :)
+import greet from "./greet";
 
-const greet = (s) => console.log(`Hello, ${s}!`);
 greet("World");
