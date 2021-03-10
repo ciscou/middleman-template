@@ -1,3 +1,3 @@
-import greet from "./greet";
+import greet from "./_greet";
 
 greet("World");
