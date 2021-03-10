@@ -4,3 +4,7 @@ body {
   font-family: variables.$font-family;
   color: variables.$black;
 }
+
+p {
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.26);
+}

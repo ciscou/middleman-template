@@ -41,7 +41,7 @@ ignore "*.scss"
 
 activate :external_pipeline,
   name: :sass,
-  command: "npx sass #{"--watch" unless build?} --no-source-map --load-path=node_modules/ source/stylesheets/:tmp/stylesheets/",
+  command: "npx sass #{"--watch" unless build?} --load-path=node_modules/ source/stylesheets/:tmp/stylesheets/",
   source: "tmp",
   latency: 1
 
