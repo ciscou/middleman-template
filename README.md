@@ -1,6 +1,6 @@
 # Middleman Template
 
-A Middleman template with dart sass support.
+A Middleman template with dart sass and rollup support.
 
 Also, babel is configured, so that uglifier can do its job.
 
