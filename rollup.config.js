@@ -8,6 +8,9 @@ export default {
     dir: 'tmp/javascripts',
     format: 'iife'
   },
+  watch: {
+    clearScreen: false
+  },
   plugins: [
     nodeResolve(),
     commonjs(),
